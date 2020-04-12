@@ -11,4 +11,9 @@ describe "bolichito"{
 	  bolichito.ponerEnVidriera(placa)
 		assert.that(bolichito.esMonocromatico())
 	}
+	test "desequilibrado" {
+	  bolichito.ponerEnMostrador(biblioteca)
+	  bolichito.ponerEnVidriera(remera)
+		assert.that(bolichito.estaDesequilibrado())
+	}
 }
