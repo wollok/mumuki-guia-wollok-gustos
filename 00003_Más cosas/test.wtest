@@ -1,7 +1,7 @@
 // FALTAN
 
-describe "Group description"{
-	test "Sample description" {
-		assert.that(true)
+describe "colores nuevos"{
+	test "naranja" {
+		assert.that(naranja.esFuerte())
 	}
 }
