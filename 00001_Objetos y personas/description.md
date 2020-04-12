@@ -1,5 +1,31 @@
 ## Objetos y personas
 
+### Colores
+Como **colores** deben existir (al menos) rojo, verde, celeste y pardo. 
+De estos, los dos primeros son fuertes, los otros no.
+
+Los colores deben entender el mensaje `esFuerte()`. Hay un hecho para que te guíes.
+
+### Materiales
+Como **materiales** tenemos: el cobre y el vidrio que brillan; el lino, la madera y el cuero que no.
+
+Los materiales deben entender el mensaje `brilla()`. Hay dos hechos para que te guíes.
+
+### Objetos
+Se arman a partir de un color y un material, y además tienen un peso.
+
+Se les debe poder preguntar sobre su color, su material y su peso.
+
+Considerar (al menos) estos objetos:
+
+  - una _remera_ roja de lino, pesa 800 gramos.
+  - una _pelota_ parda de cuero, pesa 1300 gramos.
+  - una _biblioteca_ verde de madera, pesa 8000 gramos.
+  - un _muñeco_ celeste de vidrio, de peso variable.
+  - una _placa_ de cobre, de peso y color variables.
+
+Hay algunos hechos para que te guíes.
+
 Tener en cuenta a estas personas:
 
 - _Rosa_: le gustan las cosas que pesan 2 kilos (o sea 2000 gramos) o menos.
@@ -7,18 +33,7 @@ Tener en cuenta a estas personas:
 - _Luisa_: le gustan las cosas que sean de un material que brilla.
 - _Juan_: le gustan las cosas que, o bien son de un color que no es fuerte, o bien pesan entre 1200 y 1800 gramos.
 
-Como **colores** contemplar (al menos) rojo, verde, celeste y pardo. 
-De estos, los dos primeros son fuertes, los otros no.
 
-Como **materiales** tenemos: el cobre y el vidrio que brillan; el lino, la madera y el cuero que no.
-
-Finalmente, considerar (al menos) estos objetos:
-
-  - una _remera_ roja de lino, pesa 800 gramos.
-  - una _pelota_ parda de cuero, pesa 1300 gramos.
-  - una _biblioteca_ verde de madera, pesa 8000 gramos.
-  - un _muñeco_ celeste de vidrio, de peso variable.
-  - una _placa_ de cobre, de peso y color variables.
 
 **Algunos ejemplos concretos**
 
