@@ -21,6 +21,11 @@ describe "bolichito"{
 	  bolichito.ponerEnVidriera(biblioteca)
 		assert.that(bolichito.tieneAlgoDeColor())
 	}
+	test "mejorar" {
+	  bolichito.ponerEnMostrador(remera)
+	  bolichito.ponerEnVidriera(biblioteca)
+		assert.that(bolichito.tieneAlgoDeColor())
+	}
 	test "ofrecer" {
 	  bolichito.ponerEnMostrador(pelota)
 	  bolichito.ponerEnVidriera(remera)
