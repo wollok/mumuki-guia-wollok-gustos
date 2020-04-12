@@ -32,7 +32,7 @@ describe "Luisa"{
 		assert.that(luisa.leGusta(munieco))
 	}
 	test "no le gusta" {
-		assert.notThat(estafania.leGusta(pelota))
-		assert.notThat(estafania.leGusta(munieco))
+		assert.notThat(luisa.leGusta(pelota))
+		assert.notThat(luisa.leGusta(remera))
 	}
 }
