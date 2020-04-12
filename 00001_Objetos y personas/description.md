@@ -35,6 +35,7 @@ Tener en cuenta a estas personas:
 - _Luisa_: le gustan las cosas que sean de un material que brilla.
 - _Juan_: le gustan las cosas que, o bien son de un color que no es fuerte, o bien pesan entre 1200 y 1800 gramos.
 
+Hay algunas hechas para que te guíes.
 
 
 ### Algunos ejemplos concretos
