@@ -22,9 +22,14 @@ describe "bolichito"{
 		assert.that(bolichito.tieneAlgoDeColor())
 	}
 	test "mejorar" {
-	  bolichito.ponerEnMostrador(remera)
-	  bolichito.ponerEnVidriera(biblioteca)
-		assert.that(bolichito.tieneAlgoDeColor())
+	  bolichito.ponerEnMostrador(biblioteca)
+	  bolichito.ponerEnVidriera(remera)
+		assert.that(bolichito.puedemejorar())
+		bolichito.ponerEnMostrador(remera)
+	  placa.setColor(rojo)
+	  placa.serPeso(2400)
+	  bolichito.ponerEnVidriera(placa)
+	  assert.that(bolichito.puedemejorar())
 	}
 	test "ofrecer" {
 	  bolichito.ponerEnMostrador(pelota)
