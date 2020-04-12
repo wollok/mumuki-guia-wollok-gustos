@@ -26,6 +26,8 @@ Considerar (al menos) estos objetos:
 
 Hay algunos hechos para que te guíes.
 
+### Personas
+
 Tener en cuenta a estas personas:
 
 - _Rosa_: le gustan las cosas que pesan 2 kilos (o sea 2000 gramos) o menos.
@@ -35,7 +37,7 @@ Tener en cuenta a estas personas:
 
 
 
-**Algunos ejemplos concretos**
+### Algunos ejemplos concretos
 
 - Entre los objetos que le gustan a _Rosa_ podemos encontrar: una _pelota_, una _remera_ o un _muñeco_ cuyo peso sea menor a 2000 gramos. En cambio la _biblioteca_ o una _placa_ de 3500 gramos no le gustarían.
 - A _Estefanía_ le gustaría una _placa_ roja de cualquier peso o la _biblioteca_, pero **no** le gusta: una _pelota_ parda de cuero ni un _muñeco_ celeste de vidrio.
