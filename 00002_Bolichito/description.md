@@ -1,5 +1,7 @@
 ## Bolichito
 
+**Aclaración:** los colores, materiales, objetos y personas ya están y los podés usar.
+
 Agregar al modelo un bolichito, que vende dos objetos: uno está en la vidriera, otro está en el mostrador.
 Estos objetos van cambiando con el tiempo.
 
