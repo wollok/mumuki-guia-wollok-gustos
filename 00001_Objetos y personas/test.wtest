@@ -21,9 +21,7 @@ describe "Estefanía"{
 		assert.that(estefania.leGusta(biblioteca))
 	}
 	test "no le gusta" {
-		assert.notThat(rosa.leGusta(biblioteca))
-		
-		placa.peso(3500)
-		assert.notThat(rosa.leGusta(placa))
+		assert.notThat(estafania.leGusta(pelota))
+		assert.notThat(estafania.leGusta(munieco))
 	}
 }
