@@ -36,3 +36,16 @@ describe "Luisa"{
 		assert.notThat(luisa.leGusta(remera))
 	}
 }
+
+describe "Juan"{
+	test "le gusta" {
+		assert.that(juan.leGusta(pelota))
+		assert.that(juan.leGusta(munieco))
+		placa.peso(1500)
+		assert.that(juan.leGusta(placa))
+	}
+	test "no le gusta" {
+		assert.notThat(luisa.leGusta(pelota))
+		assert.notThat(luisa.leGusta(remera))
+	}
+}
