@@ -6,5 +6,10 @@ describe "Rosa"{
 		munieco.peso(1500)
 		assert.that(rosa.leGusta(munieco))
 	}
-	test
+	test "no le gusta" {
+		assert.notThat(rosa.leGusta(biblioteca))
+		
+		placa.peso(3500)
+		assert.notThat(rosa.leGusta(placa))
+	}
 }
