@@ -13,3 +13,20 @@ describe "Rosa"{
 		assert.notThat(rosa.leGusta(placa))
 	}
 }
+
+describe "Estefanía"{
+	test "le gusta" {
+	  placa.color(rojo)
+		assert.that(estefania.leGusta(placa))
+		assert.that(rosa.leGusta(remera))
+		
+		munieco.peso(1500)
+		assert.that(rosa.leGusta(munieco))
+	}
+	test "no le gusta" {
+		assert.notThat(rosa.leGusta(biblioteca))
+		
+		placa.peso(3500)
+		assert.notThat(rosa.leGusta(placa))
+	}
+}
