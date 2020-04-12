@@ -1,5 +1,10 @@
-describe "Group description"{
-	test "Sample description" {
-		assert.that(true)
+describe "Rosa"{
+	test "le gusta" {
+		assert.that(rosa.leGusta(pelota))
+		assert.that(rosa.leGusta(remera))
+		
+		munieco.peso(1500)
+		assert.that(rosa.leGusta(munieco))
 	}
+	test
 }
