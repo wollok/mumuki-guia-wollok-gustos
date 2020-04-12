@@ -45,7 +45,7 @@ describe "Juan"{
 		assert.that(juan.leGusta(placa))
 	}
 	test "no le gusta" {
-		assert.notThat(luisa.leGusta(pelota))
-		assert.notThat(luisa.leGusta(remera))
+		assert.notThat(juan.leGusta(biblioteca))
+		assert.notThat(juan.leGusta(remera))
 	}
 }
