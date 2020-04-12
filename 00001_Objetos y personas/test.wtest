@@ -19,9 +19,6 @@ describe "Estefanía"{
 	  placa.color(rojo)
 		assert.that(estefania.leGusta(placa))
 		assert.that(estefania.leGusta(biblioteca))
-		
-		munieco.peso(1500)
-		assert.that(rosa.leGusta(munieco))
 	}
 	test "no le gusta" {
 		assert.notThat(rosa.leGusta(biblioteca))
