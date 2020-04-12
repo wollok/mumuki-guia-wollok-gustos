@@ -1,3 +1,7 @@
+object naranja {
+  // completar
+}
+
 object arito {
   // completar
 }
