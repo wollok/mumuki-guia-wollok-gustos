@@ -16,4 +16,9 @@ describe "bolichito"{
 	  bolichito.ponerEnVidriera(remera)
 		assert.that(bolichito.estaDesequilibrado())
 	}
+	test "color" {
+	  bolichito.ponerEnMostrador(remera)
+	  bolichito.ponerEnVidriera(biblioteca)
+		assert.that(bolichito.tieneAlgoDeColor())
+	}
 }
