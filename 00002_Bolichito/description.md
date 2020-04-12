@@ -1,5 +1,6 @@
 
 **Aclaración:** los colores, materiales, objetos y personas ya están y los podés usar. Fue lo que hiciste en el ejercicio anterior, así no lo tenés que voler a hacer. Evitamos que aparezca ese código para que no sea haga tan largo y confuso este ejercicio.
+Si lo querés consultar, está en la solapa `</> Biblioteca`.
 
 ## Bolichito
 
