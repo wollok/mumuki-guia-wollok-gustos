@@ -27,7 +27,7 @@ describe "bolichito"{
 		assert.that(bolichito.puedeMejorar())
 		bolichito.ponerEnMostrador(remera)
 	  placa.setColor(rojo)
-	  placa.serPeso(2400)
+	  placa.setPeso(2400)
 	  bolichito.ponerEnVidriera(placa)
 	  assert.that(bolichito.puedeMejorar())
 	}
