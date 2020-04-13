@@ -14,7 +14,7 @@ Los materiales deben entender el mensaje `brilla()`. Hay dos hechos para que te 
 ### Objetos
 Se arman a partir de un color y un material, y además tienen un peso.
 
-Se les debe poder preguntar sobre su color, su material y su peso.
+Se les debe poder preguntar sobre su color, su material y su peso. Además, para algunos objetos, color y/o peso pueden llegar a ser modificables.
 
 Considerar (al menos) estos objetos:
 
