@@ -10,6 +10,7 @@ describe "colores nuevos y ernesto"{
 		//assert.notThat(ernesto.leGusta(biblioteca))
 		
 		cajita.ponerAdentro(munieco)
+		munieco.setPeso(100)
 		assert.notThat(ernesto.leGustaLaCajita())
 	}
 
