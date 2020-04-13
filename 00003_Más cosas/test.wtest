@@ -19,7 +19,7 @@ describe "colores nuevos y ernesto"{
 
     placa.setColor(celeste)
     placa.setPeso(2200)
-	  cajita.ponerAdentro(palca)
+	  cajita.ponerAdentro(placa)
 		assert.that(ernesto.leGustaLaCajita())
 		
 	}
