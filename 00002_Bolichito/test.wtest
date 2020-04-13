@@ -19,7 +19,8 @@ describe "bolichito"{
 	test "color" {
 	  bolichito.ponerEnMostrador(remera)
 	  bolichito.ponerEnVidriera(biblioteca)
-		assert.that(bolichito.tieneAlgoDeColor())
+		assert.that(bolichito.tieneAlgoDeColor(rojo))
+		assert.that(bolichito.tieneAlgoDeColor(verde))
 	}
 	test "mejorar" {
 	  bolichito.ponerEnMostrador(biblioteca)
