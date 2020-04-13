@@ -15,3 +15,8 @@ object cajita {
   
   method ponerAdentro(cosa) { } //completar
 }
+
+
+object ernesto {
+	method leGusta() { return cajita.peso() //completar }
+}
