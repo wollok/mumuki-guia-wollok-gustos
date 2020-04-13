@@ -12,9 +12,6 @@ describe "Rosa"{
 		placa.setPeso(3500)
 		assert.notThat(rosa.leGusta(placa))
 	}
-}
-
-describe "Estefanía"{
 	test "le gusta" {
 	  placa.color(rojo)
 		assert.that(estefania.leGusta(placa))
@@ -24,9 +21,6 @@ describe "Estefanía"{
 		assert.notThat(estafania.leGusta(pelota))
 		assert.notThat(estafania.leGusta(munieco))
 	}
-}
-
-describe "Luisa"{
 	test "le gusta" {
 		assert.that(luisa.leGusta(placa))
 		assert.that(luisa.leGusta(munieco))
@@ -35,9 +29,7 @@ describe "Luisa"{
 		assert.notThat(luisa.leGusta(pelota))
 		assert.notThat(luisa.leGusta(remera))
 	}
-}
 
-describe "Juan"{
 	test "le gusta" {
 		assert.that(juan.leGusta(pelota))
 		assert.that(juan.leGusta(munieco))
