@@ -31,14 +31,14 @@ object munieco {
 	method setPeso(pesoNuevo) { peso = pesoNuevo }
 }
 
-// agregar biblioteca y placa
-
 object placa {
   // completar
   
   method setPeso(pesoNuevo) { peso = pesoNuevo }
   method setColor(colorNuevo) { color = colorNuevo }
 }
+
+// agregar biblioteca 
 
 
 object estefania {
