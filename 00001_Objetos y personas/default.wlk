@@ -33,6 +33,13 @@ object munieco {
 
 // agregar biblioteca y placa
 
+object placa {
+  // completar
+  
+  method setPeso(pesoNuevo) { peso = pesoNuevo }
+  method setColor(colorNuevo) { color = colorNuevo }
+}
+
 
 object estefania {
 	method leGusta(objeto) { return objeto.color().esFuerte() }
