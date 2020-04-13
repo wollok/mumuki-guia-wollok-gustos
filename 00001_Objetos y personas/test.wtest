@@ -1,4 +1,4 @@
-describe "Rosa"{
+describe ""{
 	test "le gusta" {
 		assert.that(rosa.leGusta(pelota))
 		assert.that(rosa.leGusta(remera))
@@ -18,8 +18,8 @@ describe "Rosa"{
 		assert.that(estefania.leGusta(biblioteca))
 	}
 	test "no le gusta" {
-		assert.notThat(estafania.leGusta(pelota))
-		assert.notThat(estafania.leGusta(munieco))
+		assert.notThat(estefania.leGusta(pelota))
+		assert.notThat(estefania.leGusta(munieco))
 	}
 	test "le gusta" {
 		assert.that(luisa.leGusta(placa))
