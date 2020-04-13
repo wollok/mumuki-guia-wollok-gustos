@@ -1,4 +1,4 @@
-describe ""{
+describe "personas"{
 	test "le gusta" {
 		assert.that(rosa.leGusta(pelota))
 		assert.that(rosa.leGusta(remera))
