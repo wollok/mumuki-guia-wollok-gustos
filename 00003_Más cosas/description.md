@@ -18,7 +18,6 @@ Agregar al modelo estos objetos:
 Agregar a Ernesto. Ernesto es medio caprichoso y entonces _solamente_ le podemos preguntar si le gusta o no la cajita. Y le gusta si la cajita pesa más de 2500 gramos o si lo que tiene adentro no brilla.
 Por ejemplo a Ernesto:
 
-- No le gusta: ni la remera, ni la pelota, ni la biblioteca (porque no son la cajita).
-- No le gusta: la cajita si la misma tiene adentro al muñeco, porque el muñeco brilla.
-- Le gusta: la cajita si la misma tiene adentro a la remera, porque la remera no brilla.
-- Le gusta: la cajita si la misma tiene adentro una placa que pesa 2200 gramos (porque el peso de la cajita es 400 más el peso de la placa, y en total dan más de 2500 gramos).
+- No le gusta la cajita si la misma tiene adentro al muñeco, porque el muñeco brilla.
+- Le gusta la cajita si la misma tiene adentro a la remera, porque la remera no brilla.
+- Le gusta la cajita si la misma tiene adentro una placa que pesa 2200 gramos (porque el peso de la cajita es 400 más el peso de la placa, y en total dan más de 2500 gramos).
