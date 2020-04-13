@@ -7,7 +7,7 @@ describe "bolichito"{
 	test "monocromatico" {
 	  bolichito.ponerEnMostrador(remera)
 	  placa.setColor(rojo)
-	  placa.setPeso(2400)
+	  placa.serPeso(2400)
 	  bolichito.ponerEnVidriera(placa)
 		assert.that(bolichito.esMonocromatico())
 	}
@@ -27,7 +27,7 @@ describe "bolichito"{
 		assert.that(bolichito.puedemejorar())
 		bolichito.ponerEnMostrador(remera)
 	  placa.setColor(rojo)
-	  placa.setPeso(2400)
+	  placa.serPeso(2400)
 	  bolichito.ponerEnVidriera(placa)
 	  assert.that(bolichito.puedemejorar())
 	}
