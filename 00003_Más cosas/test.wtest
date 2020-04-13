@@ -13,16 +13,16 @@ describe "ernesto"{
 		//assert.notThat(ernesto.leGusta(biblioteca))
 		
 		cajita.ponerAdentro(munieco)
-		assert.notThat(ernesto.leGusta(cajita))
+		assert.notThat(ernesto.leGustaLaCajita())
 	}
 
 	test "le gusta" {
 	  cajita.ponerAdentro(remera)
-		assert.that(ernesto.leGusta(cajita))
+		assert.that(ernesto.leGustaLaCajita())
 
     placa.setPeso(2200)
 	  cajita.ponerAdentro(palca)
-		assert.that(ernesto.leGusta(cajita))
+		assert.that(ernesto.leGustaLaCajita())
 		
 	}
 }
