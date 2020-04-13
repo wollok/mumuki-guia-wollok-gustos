@@ -12,4 +12,6 @@ object banquito {
 
 object cajita {
   // completar
+  
+  method ponerAdentro(cosa) { } //completar
 }
