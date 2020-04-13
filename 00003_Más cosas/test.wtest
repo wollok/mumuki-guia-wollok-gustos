@@ -8,9 +8,12 @@ describe "colores nuevos"{
 
 describe "ernesto"{
 		test "no le gusta" {
-		assert.notThat(ernesto.leGusta(remera))
-		assert.notThat(ernesto.leGusta(pelota))
-		assert.notThat(ernesto.leGusta(biblioteca))
+		//assert.notThat(ernesto.leGusta(remera))
+		//assert.notThat(ernesto.leGusta(pelota))
+		//assert.notThat(ernesto.leGusta(biblioteca))
+		
+		cajita.ponerAdentro(munieco)
+		assert.notThat(ernesto.leGusta(cajita))
 	}
 
 	test "le gusta" {
