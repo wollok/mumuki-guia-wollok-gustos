@@ -5,3 +5,21 @@ describe "colores nuevos"{
 		assert.that(naranja.esFuerte())
 	}
 }
+
+describe "ernesto"{
+		test "no le gusta" {
+		assert.notThat(ernesto.leGusta(remera))
+		assert.notThat(ernesto.leGusta(pelota))
+		assert.notThat(ernesto.leGusta(biblioteca))
+	}
+
+	test "le gusta" {
+	  cajita.ponerAdentro(remera)
+		assert.that(ernesto.leGusta(cajita))
+
+    placa.setPeso(2200)
+	  cajita.ponerAdentro(palca)
+		assert.that(ernesto.leGusta(cajita))
+		
+	}
+}
