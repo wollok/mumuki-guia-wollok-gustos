@@ -29,13 +29,13 @@ describe "bolichito"{
 	  placa.setColor(rojo)
 	  placa.serPeso(2400)
 	  bolichito.ponerEnVidriera(placa)
-	  assert.that(bolichito.puedemejorar())
+	  assert.that(bolichito.puedeMejorar())
 	}
 	test "ofrecer" {
 	  bolichito.ponerEnMostrador(pelota)
 	  bolichito.ponerEnVidriera(remera)
-		assert.that(bolichito.puedeOfrecerAlgoA(estefania))
-		assert.that(bolichito.puedeOfrecerAlgoA(juan))
-		assert.notThat(bolichito.puedeOfrecerAlgoA(luisa))
+		assert.that(bolichito.puedeOfrecerleAlgoA(estefania))
+		assert.that(bolichito.puedeOfrecerleAlgoA(juan))
+		assert.notThat(bolichito.puedeOfrecerleAlgoA(luisa))
 	}
 }
