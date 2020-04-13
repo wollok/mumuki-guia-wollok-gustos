@@ -1,5 +1,5 @@
 
-**Aclaración:** todo lo que respecta a colores, materiales, objetos y personas del ejercicio anterior, ya están y los podés usar.
+**Aclaración:** todo lo que respecta a colores, materiales, objetos y personas del ejercicio anterior, ya está y lo podés usar.
 Evitamos que aparezca ese código para que no sea haga tan largo y confuso este ejercicio.
 
 
