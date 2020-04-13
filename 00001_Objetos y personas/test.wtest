@@ -13,7 +13,7 @@ describe "personas"{
 		assert.notThat(rosa.leGusta(placa))
 	}
 	test "le gusta" {
-	  placa.color(rojo)
+	  placa.setColor(rojo)
 		assert.that(estefania.leGusta(placa))
 		assert.that(estefania.leGusta(biblioteca))
 	}
@@ -33,7 +33,8 @@ describe "personas"{
 	test "le gusta" {
 		assert.that(juan.leGusta(pelota))
 		assert.that(juan.leGusta(munieco))
-		placa.peso(1500)
+		placa.setPeso(1500)
+		placa.setColor(celeste)
 		assert.that(juan.leGusta(placa))
 	}
 	test "no le gusta" {

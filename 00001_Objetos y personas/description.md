@@ -19,7 +19,7 @@ Se les debe poder preguntar sobre su color, su material y su peso. Además, para
 Considerar (al menos) estos objetos:
 
   - una _remera_ roja de lino, pesa 800 gramos.
-  - una _pelota_ parda de cuero, pesa 1300 gramos.
+  - una _pelota_ pardo de cuero, pesa 1300 gramos.
   - una _biblioteca_ verde de madera, pesa 8000 gramos.
   - un _muñeco_ celeste de vidrio, de peso variable.
   - una _placa_ de cobre, de peso y color variables.

@@ -32,7 +32,7 @@ object munieco {
 }
 
 // agregar biblioteca y placa
-
+// usá siempre setPeso y setColor para los métodos para setear peso y color respectivamente.
 
 object estefania {
 	method leGusta(objeto) { return objeto.color().esFuerte() }

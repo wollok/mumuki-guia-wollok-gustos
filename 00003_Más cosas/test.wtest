@@ -1,9 +1,12 @@
 // FALTAN
 
-describe "colores nuevos y ernesto"{
+describe "colores nuevos"{
 	test "naranja" {
 		assert.that(naranja.esFuerte())
 	}
+}
+
+describe "ernesto"{
 		test "no le gusta" {
 		//assert.notThat(ernesto.leGusta(remera))
 		//assert.notThat(ernesto.leGusta(pelota))
@@ -17,7 +20,6 @@ describe "colores nuevos y ernesto"{
 	  cajita.ponerAdentro(remera)
 		assert.that(ernesto.leGustaLaCajita())
 
-    placa.setColor(celeste)
     placa.setPeso(2200)
 	  cajita.ponerAdentro(palca)
 		assert.that(ernesto.leGustaLaCajita())
