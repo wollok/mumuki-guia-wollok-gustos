@@ -1,43 +1,42 @@
 describe "personas"{
-	test "rosa le gusta" {
+	test "le gusta" {
 		assert.that(rosa.leGusta(pelota))
 		assert.that(rosa.leGusta(remera))
 		
 		munieco.setPeso(1500)
 		assert.that(rosa.leGusta(munieco))
 	}
-	test "rosa no le gusta" {
+	test "no le gusta" {
 		assert.notThat(rosa.leGusta(biblioteca))
 		
 		placa.setPeso(3500)
 		assert.notThat(rosa.leGusta(placa))
 	}
-	test "estefania le gusta" {
-	  placa.setColor(rojo)
+	test "le gusta" {
+	  placa.color(rojo)
 		assert.that(estefania.leGusta(placa))
 		assert.that(estefania.leGusta(biblioteca))
 	}
-	test "estefania no le gusta" {
+	test "no le gusta" {
 		assert.notThat(estefania.leGusta(pelota))
 		assert.notThat(estefania.leGusta(munieco))
 	}
-	test "luisa le gusta" {
+	test "le gusta" {
 		assert.that(luisa.leGusta(placa))
 		assert.that(luisa.leGusta(munieco))
 	}
-	test "luisa no le gusta" {
+	test "no le gusta" {
 		assert.notThat(luisa.leGusta(pelota))
 		assert.notThat(luisa.leGusta(remera))
 	}
 
-	test "juan le gusta" {
+	test "le gusta" {
 		assert.that(juan.leGusta(pelota))
 		assert.that(juan.leGusta(munieco))
-		placa.setPeso(1500)
-		placa.setColor(celeste)
+		placa.peso(1500)
 		assert.that(juan.leGusta(placa))
 	}
-	test "juan no le gusta" {
+	test "no le gusta" {
 		assert.notThat(juan.leGusta(biblioteca))
 		assert.notThat(juan.leGusta(remera))
 	}
