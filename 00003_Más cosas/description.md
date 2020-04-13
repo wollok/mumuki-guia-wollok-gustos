@@ -15,7 +15,7 @@ Agregar al modelo estos objetos:
   El peso de la cajita es de 400 gramos más el peso de lo que tiene adentro.
 
 ## Una personas más
-Agregar a Ernesto. Ernesto es medio caprichoso y entonces _solamente_ le podemos preguntar si le gusta o no la cajita. Y le gusta si la cajita pesa más de 2500 gramos o si lo que tiene adentro no brilla.
+Agregar a Ernesto. Ernesto es medio caprichoso y entonces _solamente_ le podemos preguntar si le gusta o no la cajita. Y le gusta si la cajita pesa más de 2500 gramos o si lo que tiene adentro es de un material que no brilla.
 Por ejemplo a Ernesto:
 
 - No le gusta la cajita si la misma tiene adentro al muñeco, porque el muñeco brilla.
