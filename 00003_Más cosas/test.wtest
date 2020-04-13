@@ -1,9 +1,12 @@
 // FALTAN
 
-describe "colores nuevos y ernesto"{
+describe "colores nuevos"{
 	test "naranja" {
 		assert.that(naranja.esFuerte())
 	}
+}
+
+describe "ernesto"{
 		test "no le gusta" {
 		//assert.notThat(ernesto.leGusta(remera))
 		//assert.notThat(ernesto.leGusta(pelota))
