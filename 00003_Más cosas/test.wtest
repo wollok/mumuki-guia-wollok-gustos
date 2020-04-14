@@ -4,7 +4,7 @@ describe "colores nuevos y ernesto"{
 	test "naranja" {
 		assert.that(naranja.esFuerte())
 	}
-		test " no le gusta" {
+		test "ernesto no le gusta" {
 		//assert.notThat(ernesto.leGusta(remera))
 		//assert.notThat(ernesto.leGusta(pelota))
 		//assert.notThat(ernesto.leGusta(biblioteca))
@@ -14,7 +14,7 @@ describe "colores nuevos y ernesto"{
 		assert.notThat(ernesto.leGustaLaCajita())
 	}
 
-	test " le gusta" {
+	test "ernesto le gusta" {
 	  cajita.ponerAdentro(remera)
 		assert.that(ernesto.leGustaLaCajita())
 
