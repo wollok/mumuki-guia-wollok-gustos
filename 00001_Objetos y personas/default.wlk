@@ -28,6 +28,7 @@ object munieco {
 	method color() { return celeste }
 	method material() { return vidrio }
 	method peso() { return peso }
+	// usar siempre setPeso y setColor para setear los nuevos peso y color, respectivamente.
 	method setPeso(pesoNuevo) { peso = pesoNuevo }
 }
 
