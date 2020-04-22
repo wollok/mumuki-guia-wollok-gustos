@@ -32,6 +32,7 @@ describe "personas"{
 
 	test "juan le gusta" {
 		assert.that(juan.leGusta(pelota))
+		placa.setPeso(3500)
 		assert.that(juan.leGusta(munieco))
 		placa.setPeso(1500)
 		placa.setColor(celeste)
