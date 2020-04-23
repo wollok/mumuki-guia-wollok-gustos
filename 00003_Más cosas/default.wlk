@@ -18,5 +18,5 @@ object cajita {
 
 
 object ernesto {
-	method leGustaLaCajita() { return true //completar }
+	method leGustaLaCajita() { return true } //completar
 }
